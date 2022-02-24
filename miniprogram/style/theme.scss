@@ -1,0 +1,5 @@
+@import './style/variables.scss';
+
+page {
+  --tabs-bottom-bar-color: #{$primary-color};
+}
