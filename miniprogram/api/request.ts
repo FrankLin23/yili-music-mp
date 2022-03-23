@@ -1,7 +1,7 @@
 import { getToken, removeToken, setToken } from "../utils/auth";
 
 //const baseUrl = "https://yili-music-1571394-1309336797.ap-shanghai.run.tcloudbase.com";
-const baseUrl = "http://localhost:8080";
+const baseUrl = "http://localhost:7001";
 
 export const get = (uri: string) => {
     wx.showLoading({
